@@ -71,7 +71,7 @@ class Face_Register:
         self.fps_show = 0
         self.start_time = time.time()
 
-        self.cap = cv2.VideoCapture(0)  # Get video stream from camera
+        self.cap = cv2.VideoCapture("D:\IU\AI Learning\Projects end to end\Face-Recognition-Based-Attendance-System\data\Training video\Steph Curry Postgame Interview _ Golden State Warriors beat Charlotte Hornets 115-97.mp4")  # Get video stream from camera
 
         # self.cap = cv2.VideoCapture("test.mp4")   # Input local video
 

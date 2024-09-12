@@ -319,7 +319,7 @@ class Face_Recognizer:
 
     def run(self):
         # cap = cv2.VideoCapture("video.mp4")  # Get video stream from video file
-        cap = cv2.VideoCapture(0)              # Get video stream from camera
+        cap = cv2.VideoCapture("D:\IU\AI Learning\Projects end to end\Face-Recognition-Based-Attendance-System\data\Test video\LeQ&A with LeBron at #NBAMediaDay 🍿.mp4")
         self.process(cap)
 
         cap.release()
